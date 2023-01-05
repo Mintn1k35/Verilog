@@ -1,0 +1,8 @@
+module Hash_32(
+	input logic [31:0] C,
+	output logic [31:0] D,
+	output logic [31:0] Ci
+);
+	
+
+endmodule
