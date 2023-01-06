@@ -6,7 +6,7 @@ module Decoder3to8(
 	logic [7:0] O_Temp;
 
 	
-	always @(*) begin
+	always_comb begin
 		case(A)
 			3'd0: O_Temp = 8'd1;
 			3'd1: O_Temp = 8'd2;
