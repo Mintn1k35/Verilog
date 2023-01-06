@@ -1,0 +1,9 @@
+module RFC(
+	input logic I,
+	input logic WE,
+	input logic WA,
+	
+);
+
+
+endmodule 

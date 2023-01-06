@@ -1,0 +1,9 @@
+module Decoder2to4(
+	input logic E,
+	input logic A[1:0],
+	output logic [3:0] O
+);
+
+
+
+endmodule 

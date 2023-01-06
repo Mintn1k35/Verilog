@@ -1,0 +1,8 @@
+module Decoder3to8(
+	input logic E,
+	input logic [2:0] A,
+	output logic [7:0] O
+);
+
+
+endmodule 
