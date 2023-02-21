@@ -13,4 +13,4 @@ module Register(
 	end
 	
 
-endmodule 
+endmodule: Register

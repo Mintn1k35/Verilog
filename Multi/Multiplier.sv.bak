@@ -1,0 +1,16 @@
+module Multiplier(
+	input logic [31:0] data,
+	input logic clk,
+	input logic reset,
+	input logic select,
+	output logic LSB,
+	output logic [31:0] out
+);
+
+	logic outTemp;
+	logic shiftRight;
+	
+	assign LSB = {1'b0,out[31:1]};
+	assign outTemp = (select) ? 
+
+endmodule 

@@ -1,0 +1,11 @@
+module Controller(
+	input logic clk,
+	input logic reset,
+	input logic done,
+	output logic load,
+	output logic Reset,
+	output logic showResult
+);
+
+
+endmodule 

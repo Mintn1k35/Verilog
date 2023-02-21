@@ -1,0 +1,11 @@
+module Multi(
+	input logic [31:0] multiplicand,
+	input logic [31:0] multiplier,
+	input logic clk,
+	input logic reset,
+	input logic [61:0] result
+);
+
+
+
+endmodule 

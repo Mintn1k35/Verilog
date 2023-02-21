@@ -1,0 +1,13 @@
+module Product(
+	input logic [61:0] data,
+	input logic clk,
+	input logic reset,
+	input logic write,
+	output logic out
+);
+	always_ff @(posedge clk or negedge reset) begin
+		if(!reset) out <= 62'd0;
+	
+	end
+
+endmodule

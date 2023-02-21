@@ -1,0 +1,7 @@
+module BirPort(
+	inout logic data;
+);
+
+
+
+endmodule 

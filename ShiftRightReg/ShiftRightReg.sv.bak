@@ -1,0 +1,8 @@
+module ShiftRightReg(
+	input logic [7:0] data,
+	input logic load,
+	output logic [7:0] result
+);
+	
+
+endmodule 
